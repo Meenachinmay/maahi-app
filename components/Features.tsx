@@ -47,7 +47,7 @@ export default function SplitWithImage() {
             color={"purple.400"}
             fontWeight={600}
             fontSize={"sm"}
-            bg={useColorModeValue("purple.50", "purple.900")}
+            bg={useColorModeValue("purple.100", "purple.900")}
             p={2}
             alignSelf={"flex-start"}
             rounded={"md"}
