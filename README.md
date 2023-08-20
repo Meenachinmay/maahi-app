@@ -1,4 +1,4 @@
-# [Chakra UI and Next.js Landing Page](https://chakra-ui-and-nextjs-landing-page.vercel.app/)
+# [Onegai Japanese academy online classes website])
 
 This is a template for creating a landing page with Chakra UI and Next.js.
 
