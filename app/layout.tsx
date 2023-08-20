@@ -17,7 +17,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body>
+      <body style={{ background: '#FAF5FF'}}>
         <ChakraProvider>
           <div>
             <WithSubnavigation />

@@ -10,13 +10,11 @@ import {
   useColorModeValue,
   createIcon,
 } from "@chakra-ui/react";
+import Link from "next/link";
 
 export default function CallToActionWithAnnotation() {
   return (
     <>
-      <Head>  
-      </Head>
-
       <Container maxW={"3xl"}>
         <Stack
           as={Box}
@@ -39,12 +37,15 @@ export default function CallToActionWithAnnotation() {
               お願い 日本語 Academy
             </Text>
           </Heading>
-          <Text color={"gray.500"} fontSize={{ base: "sm", sm: "sm", md: "lg"}}>
+          <Text
+            color={"gray.500"}
+            fontSize={{ base: "sm", sm: "sm", md: "lg" }}
+          >
             Embark on a captivating journey of language and culture with our
             online Japanese classes. Dive into the elegance of kanji strokes,
             the melody of spoken words, and the art of meaningful connections.
-            Join us today to learn, immerse, and flourish in the beauty of
-            Japan rich linguistic tapestry.
+            Join us today to learn, immerse, and flourish in the beauty of Japan
+            rich linguistic tapestry.
           </Text>
           <Stack
             direction={"column"}
@@ -62,7 +63,7 @@ export default function CallToActionWithAnnotation() {
                 bg: "purple.600",
               }}
             >
-              Start Learning
+              <Link href="/course-details">Start Learning</Link>
             </Button>
             {/* <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
               Learn more

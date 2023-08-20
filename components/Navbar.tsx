@@ -58,7 +58,7 @@ export default function WithSubnavigation() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            <Button as="a" href="/" variant={"link"}>
+            <Button as="a" _hover={{ textDecoration: 'none' }} href="/" variant={"link"}>
               <Flex gap={2} alignItems={'center'} justifyContent={'center'} >
                 <Text textColor={'purple.500'} fontSize={'2xl'} fontWeight={'semibold'}>Onegai</Text>
                 <Text fontSize={'sm'}>Japanese</Text>

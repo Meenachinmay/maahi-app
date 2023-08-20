@@ -45,8 +45,9 @@ const SocialButton = ({
 export default function SmallWithSocial() {
   return (
     <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
+      bg={useColorModeValue("red.50", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
+      marginTop={'50px'}
     >
       <Container
         as={Stack}
