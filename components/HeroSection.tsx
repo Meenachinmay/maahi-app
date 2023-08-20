@@ -14,11 +14,7 @@ import {
 export default function CallToActionWithAnnotation() {
   return (
     <>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
-          rel="stylesheet"
-        />
+      <Head>  
       </Head>
 
       <Container maxW={"3xl"}>
@@ -48,7 +44,7 @@ export default function CallToActionWithAnnotation() {
             online Japanese classes. Dive into the elegance of kanji strokes,
             the melody of spoken words, and the art of meaningful connections.
             Join us today to learn, immerse, and flourish in the beauty of
-            Japan's rich linguistic tapestry.
+            Japan rich linguistic tapestry.
           </Text>
           <Stack
             direction={"column"}
