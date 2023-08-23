@@ -2,6 +2,7 @@
 import CallToActionWithAnnotation from "@/components/HeroSection"
 import SimpleThreeColumns from "@/components/Features"
 import SplitWithImage from "@/components/Testimonials"
+import ContactUs from "@/components/ContactUs"
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <CallToActionWithAnnotation />
       <SimpleThreeColumns />
       <SplitWithImage />
+      <ContactUs />
     </>
   )
 }

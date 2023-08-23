@@ -94,7 +94,7 @@ export default function SmallWithSocial() {
       >
         <Flex gap={3} alignItems={"center"} justifyItems={"center"}>
           <Text fontWeight={"bold"}>contact us at our email: </Text>
-          <Text color={'blue.500'} _hover={{ textDecoration: 'underline'}}>
+          <Text color={'blue.500'} textDecoration={'underline'} _hover={{ textDecoration: 'underline'}}>
             <a href="mailto:m.mahichodhry@gmail.com">
               Send an email to us from here.
             </a>
