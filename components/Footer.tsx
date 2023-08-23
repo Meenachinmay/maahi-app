@@ -4,20 +4,26 @@ import {
   Container,
   Stack,
   Text,
+  Flex,
   useColorModeValue,
   VisuallyHidden,
-} from "@chakra-ui/react"
-import { FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa"
-import { ReactNode } from "react"
+} from "@chakra-ui/react";
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
+import { ReactNode } from "react";
 
 const SocialButton = ({
   children,
   label,
   href,
 }: {
-  children: ReactNode
-  label: string
-  href: string
+  children: ReactNode;
+  label: string;
+  href: string;
 }) => {
   return (
     <chakra.button
@@ -39,15 +45,15 @@ const SocialButton = ({
       <VisuallyHidden>{label}</VisuallyHidden>
       {children}
     </chakra.button>
-  )
-}
+  );
+};
 
 export default function SmallWithSocial() {
   return (
     <Box
       bg={useColorModeValue("red.50", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
-      marginTop={'50px'}
+      marginTop={"50px"}
     >
       <Container
         as={Stack}
@@ -60,10 +66,16 @@ export default function SmallWithSocial() {
       >
         <Text>© 2023 Onegai Japanese Academy. All rights reserved</Text>
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Linkedin"} href={"https://www.linkedin.com/in/mahima-chaudhary-310b901a8/"}>
+          <SocialButton
+            label={"Linkedin"}
+            href={"https://www.linkedin.com/in/mahima-chaudhary-310b901a8/"}
+          >
             <FaLinkedinIn />
           </SocialButton>
-          <SocialButton label={"YouTube"} href={"https://www.youtube.com/@nihonnohon9140"}>
+          <SocialButton
+            label={"YouTube"}
+            href={"https://www.youtube.com/@nihonnohon9140"}
+          >
             <FaYoutube />
           </SocialButton>
           <SocialButton label={"Instagram"} href={"#"}>
@@ -71,6 +83,24 @@ export default function SmallWithSocial() {
           </SocialButton>
         </Stack>
       </Container>
+      <Container
+        as={Stack}
+        maxW={"6xl"}
+        py={4}
+        direction={{ base: "column", md: "row" }}
+        spacing={4}
+        justify={{ base: "center", md: "space-between" }}
+        align={{ base: "center", md: "center" }}
+      >
+        <Flex gap={3} alignItems={"center"} justifyItems={"center"}>
+          <Text fontWeight={"bold"}>contact us at our email: </Text>
+          <Text color={'blue.500'} _hover={{ textDecoration: 'underline'}}>
+            <a href="mailto:m.mahichodhry@gmail.com">
+              Send an email to us from here.
+            </a>
+          </Text>
+        </Flex>
+      </Container>
     </Box>
-  )
+  );
 }
