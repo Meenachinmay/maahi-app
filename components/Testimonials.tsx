@@ -129,9 +129,9 @@ export default function WithSpeechBubbles() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                "https://media.licdn.com/dms/image/D4D03AQGfl5aSJ4j4tw/profile-displayphoto-shrink_200_200/0/1677576528990?e=1698278400&v=beta&t=bA-tybKoIQtzOdwAvngSSJsU7kXmRp6Y3ENqQavEl5k"
+                  ''
               }
-              name={"Chinmay Anand"}
+              name={"Akiko san"}
               title={"Instructor"}
             />
           </Testimonial>
@@ -145,10 +145,9 @@ export default function WithSpeechBubbles() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={
-                "https://media.licdn.com/dms/image/D4D03AQGfl5aSJ4j4tw/profile-displayphoto-shrink_200_200/0/1677576528990?e=1698278400&v=beta&t=bA-tybKoIQtzOdwAvngSSJsU7kXmRp6Y3ENqQavEl5k"
+              src={''
               }
-              name={"Chinmay Anand"}
+              name={"Akiko San"}
               title={"Instructor"}
             />
           </Testimonial>
