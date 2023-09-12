@@ -272,41 +272,31 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Inspiration",
+    label: "Inspiration to Learn Japanese",
     children: [
       {
-        label: "Explore Design Work",
-        subLabel: "Trending Design to inspire you",
-        href: "#",
-      },
-      {
-        label: "New & Noteworthy",
-        subLabel: "Up-and-coming Designers",
+        label: "Explore New Opportunity",
+        subLabel: "Japanese jobs are going to trend in future in india.",
         href: "#",
       },
     ],
   },
   {
-    label: "Find Work",
+    label: "Our Courses",
     children: [
       {
-        label: "Job Board",
-        subLabel: "Find your dream design job",
-        href: "#",
-      },
-      {
-        label: "Freelance Projects",
-        subLabel: "An exclusive list for contract work",
+        label: "JLPT courses",
+        subLabel: "Pass your JLPT certificate exams with us.",
         href: "#",
       },
     ],
   },
   {
-    label: "Learn Design",
+    label: "About Us",
     href: "#",
   },
   {
-    label: "Hire Designers",
+    label: "Pricing",
     href: "#",
   },
 ]
